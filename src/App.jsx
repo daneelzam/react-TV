@@ -8,7 +8,7 @@ const Container = styled.div`
   max-width: 60%;
 `;
 
-function App(props) {
+function App() {
   return (
     <Container>
       <TvList catalog={catalog}/>

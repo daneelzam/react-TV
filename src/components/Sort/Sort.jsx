@@ -8,6 +8,7 @@ function Sort({ catalog, setSortedList }) {
     if (value === 'Down') {
       return setSortedList([...catalog.sort((a, b) => b.Size - a.Size)]);
     }
+    return value;
   };
   return (
     <div>
